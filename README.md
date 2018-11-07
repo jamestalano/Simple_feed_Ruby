@@ -10,6 +10,13 @@
 [![Inline docs](http://inch-ci.org/github/kigster/simple-feed.svg?branch=master)](http://inch-ci.org/github/kigster/simple-feed)
 [![Talk on Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg)](https://gitter.im/kigster/simple-feed)
 
+> Please read the blog post [Feeding Frenzy with SimpleFeed](http://kig.re/2017/02/19/feeding-frenzy-with-simple-feed-activity-feed-ruby-gem.html) launching this library. Please leave comments or questions in the discussion thread at the bottom of that post. Thanks! 
+
+If you like to see this project grow, your donation of any amount is much appreciated.
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FSFYYNEQ8RKWU)
+
+---
 
 This is a fast, pure-ruby implementation of an activity feed concept commonly used in social networking applications. The implementation is optimized for **read-time performance** and high concurrency (lots of users), and can be extended with custom backend providers. Two providers come bundled: the production-ready Redis provider, and a naive Ruby Hash-based provider.
 
@@ -389,3 +396,18 @@ $ gem install simple-feed
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+### Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/kigster/simple-feed
+
+### License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+### Acknowledgements
+
+ * This project is conceived and sponsored by [Simbi, Inc.](https://simbi.com).
+ * Author's personal experience at [Wanelo, Inc.](https://wanelo.com) has served as an inspiration.
+
+
