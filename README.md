@@ -18,7 +18,6 @@ __Important Notes and Acknowledgements:__
  * SimpleFeed *does not depend on Ruby on Rails* and is a __pure-ruby__ implementation
  * SimpleFeed requires ruby 2.3 or later
  * SimpleFeed is currently live in production
- * SimpleFeed is open source thanks to the generosity of __[Simbi, Inc](http://simbi.com)__.
 
 ## Background, Examples, Serialization, etc
 
